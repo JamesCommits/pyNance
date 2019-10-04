@@ -1,0 +1,13 @@
+Web App Objectives:
+
+Build a database of historical price data for stocks AND options chains.
+Analyze stocks to make decisions regarding downward or upward trends over atleast a 1 month timespan
+
+If stock is in a upward or downward trend
+  Analyze stock price data and correlating options chains prices
+  Output an average for options chains price at said stock price (ie If MSFT stock is at $100 - option chain price average is 1.00)
+    If options price is substantially lower (20%?) then its average at said stock price then a buying opportunity is presented
+      ^ This must take into account theta and other time-deciding factors
+      
+
+  
