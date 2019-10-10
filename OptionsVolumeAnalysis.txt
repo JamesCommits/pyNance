@@ -30,7 +30,7 @@ Notes: Automation of this process should happen after we can successfully execut
        initial build down first.
 
 1. Initial API call to scrape our option data
-  1.1 Which API will we use? -
+  1.1 Which API will we use? - https://www.barchart.com/ondemand/api/getEquityOptions
   1.2 Would it be easier to use a webscraper? - 
   1.3 Python script to make the call to the API? Unsure if this is how it works.
   
