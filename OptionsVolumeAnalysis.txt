@@ -1,3 +1,11 @@
+Objectives with this project:
+Show correct procedures for accessing and calling APIs
+Utilize AWS services and databases
+Build a secure AWS VPC with proper protocols
+Utilize Python in Django development and automating scripts
+Show HTML/CSS knowledge with visual representation of data.
+
+
 Mission:
 
 To display options trading volume for the day amongst the most traded options and presented in a visual way.
