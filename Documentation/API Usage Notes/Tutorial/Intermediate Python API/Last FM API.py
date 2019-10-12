@@ -32,10 +32,19 @@ r = lastfm_get({
     'method': 'chart.gettopartists'
 })
 
+print(r.status_code)
 # 92 in Notes
 def jprint(obj):
     # Create a formatted string of the Python JSON object.
     text = json.dumps(obj, sort_keys=True, indent=4)
     print(text)
 
-jprint(r.json())
+# 101-106 in Notes
+jprint(r.json()['artists']['@attr'])
+
+# 203-210 in Notes
+import requests_cache
+
+#211-213 in Notes
+requests_cache.install_cache()
+
